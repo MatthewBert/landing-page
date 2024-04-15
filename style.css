@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-section,
+.info-section,
+.quote-section,
+.signup-section {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container,
+.info-container,
+.quote-container,
+.signup-container {
+    border: 1px solid red;
+}
+
+.hero-section, .footer-section {
+    background-color: #1F2937;
+    color: #ffffff;
 }
